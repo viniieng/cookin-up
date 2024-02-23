@@ -1,6 +1,6 @@
 <template>
     <footer class="rodape paragrafo">
-      Desenvolvido por Vinicius Engelmann Gith(Curso Alura) | 2024 - Projeto fictício sem fins comerciais.
+      Desenvolvido por Vinicius Engelmann (Curso Alura) | Github:viniieng | 2024 - Projeto fictício sem fins comerciais.
     </footer>
   </template>
   

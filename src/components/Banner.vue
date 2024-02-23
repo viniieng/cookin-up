@@ -10,7 +10,7 @@
       </p>
 
       <p class="subtitulo">
-        Explore novas receitas todos os dias com os ingredientes que estão ao seus alcance!
+        Explore novas receitas todos os dias com os ingredientes que estão ao seu alcance!
       </p>
     </div>
     <img src="../assets/images/foto-banner.png" alt="Foto de uma mulher cozinhando " class="foto-banner">
