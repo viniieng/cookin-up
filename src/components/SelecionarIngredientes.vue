@@ -24,22 +24,21 @@ export default {
 		<p class="paragrafo-lg intrucoes">
 			Selecione abaixo os ingredientes que você quer usar nesta receita:
 		</p>
-
+		<br>
+		<br>
 		<ul class="categorias">
 			<li v-for="categoria in categorias" :key="categoria.nome">
-				<CardCategoriaVue :categoria="categoria" 
-				@adicionar-ingrediente="$emit('adicionarIngrediente', $event)"
-					@remover-ingrediente="$emit('removerIngrediente', $event)"
-					 />
+				<CardCategoriaVue :categoria="categoria" @adicionar-ingrediente="$emit('adicionarIngrediente', $event)"
+					@remover-ingrediente="$emit('removerIngrediente', $event)" />
 
 			</li>
 		</ul>
 
-<p class="paragrafo dica">
-    *Atenção: consideramos que você tem em casa sal, pimenta e água.
-  </p>
+		<p class="paragrafo dica">
+			*Atenção: consideramos que você tem em casa sal, pimenta e água.
+		</p>
 
-  <BotaoPrincipal texto="Buscar receitas!" />
+		<BotaoPrincipal texto="Buscar receitas!" />
 	</section>
 </template>
 
